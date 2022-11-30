@@ -1,1 +1,5 @@
 # socket_coding
+**socket coding in c** <br>
+-This is about  socket programming in C language. In this tutorial, we will learn how to create a socket server and client in C language. We will use the socket() function to create a socket, bind() function to bind the socket to an address, listen() function to listen for connections on a socket, accept() function to accept a connection on a socket, and send() and recv() functions to send and receive data on a socket.
+- Socket programming in C language is a bit different from other languages like Java, Python, etc. In C language, we need to use the header file <sys/socket.h> to use the socket functions. We also need to use the header file <netinet/in.h> to use the sockaddr_in structure.
+- In this tutorial, we will create a simple socket server and client in C language. The server will listen on port 8080 and the client will connect to the server on port 8080. The server will send a message to the client and the client will print the message on the console.
